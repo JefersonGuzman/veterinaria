@@ -39,8 +39,15 @@
                             <label >Acudiente</label>
                             <input type="text" name="doc_identific" class="form-control"  placeholder=" id del acudiente" required>
                             
-                            <hr/>
-                            <input  class="btn btn-success" type="submit" name="guardar_mascota">
+                            <div class="row" id="contenedor_btn">
+                                <div class="col-md-2">                               
+                                    <input  class="btn btn-success" type="submit" name="guardar_mascota" id="btn">
+                                </div>
+                                <div class="col-md-2">                               
+                                    <a  class="btn btn-danger" id="btn" value=""  data-bs-toggle="collapse" href="#form_mascota">Cerrar</a>
+                                </div>
+                            </div>
+
                         </div>
                     </form>
             </div>
