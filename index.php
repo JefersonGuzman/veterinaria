@@ -3,13 +3,14 @@
 <?php include("archivos/header.php"); ?>
 
 <!-- FORMULARIO DE CREAR COLABORADOR -->
-<div class="collapse" id="form_colaborador">
+<div class="collapse" id="form_colaborador" id="formColaborador">
   <div class="card card-body">
   <?php include("archivos/formulario_crear_colaborador.php"); ?>
   </div>
 </div>
 
 <!-- Tabla donde ver todos los Colaboradores -->
+
 <?php include("archivos/tabla_colaborador.php"); ?>
 
 <!-- FORMULARIO DE CREAR USAURIO -->

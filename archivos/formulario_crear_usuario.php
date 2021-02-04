@@ -10,7 +10,7 @@
             <?php } ?>           
 
         <div class="col-md-12">
-            <h1>Formulario Crear Usuario</h1>
+            <h1>Formulario Crear Usuario</h1> 
                 <form action="crear.php" method="POST" name="formulario">
                     <div class="form-group">
                         <label >Nombre</label>
