@@ -19,13 +19,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item">
-          <a class="btn btn-dark" data-bs-toggle="collapse" href="#form_colaborador" role="button" aria-expanded="false" aria-controls="collapseExample" id="menu"> CREAR COLABORADOR </a>
+          <a class="btn btn-dark"  href="archivos/formulario_crear_colaborador.php" role="button" aria-expanded="false" aria-controls="collapseExample" id="menu"> CREAR COLABORADOR </a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-dark" data-bs-toggle="collapse" href="#form_usuario" role="button" aria-expanded="false" aria-controls="collapseExample" id="menu"> CREAR USUARIO </a>
+          <a class="btn btn-dark"  href="archivos/formulario_crear_usuario.php" role="button" aria-expanded="false" aria-controls="collapseExample" id="menu"> CREAR USUARIO </a>
         </li>
         <li class="nav-item">
-        <a class="btn btn-dark" data-bs-toggle="collapse" href="#form_mascota" role="button" aria-expanded="false" aria-controls="collapseExample" id="menu"> CREAR MASCOTAS </a>
+        <a class="btn btn-dark" href="archivos/formulario_crear_mascota.php" role="button" aria-expanded="false" aria-controls="collapseExample" id="menu"> CREAR MASCOTAS </a>
         </li>
       </ul>
     </div>

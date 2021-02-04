@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="archivos/estilo.css" type="text/css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <?php $vista="usuario"?>
+    <?php include("nav.php"); ?>
+
+</head>
+<body>
 <div class="container" id="M_crear_usuario">
 <br>
     <div class="row">
@@ -52,7 +65,7 @@
                                     <input  class="btn btn-success" type="submit" name="guardar_usuario" id="btn">
                                 </div>
                                 <div class="col-md-2">                               
-                                    <a  class="btn btn-danger" id="btn" value=""  data-bs-toggle="collapse" href="#form_usuario">Cerrar</a>
+                                    <a  class="btn btn-danger"  name="" id="btn" value=""  data-bs-toggle="collapse" href="../index.php">Cerrar</a>
                                 </div>
                             </div>
                         </div>
