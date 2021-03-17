@@ -36,11 +36,11 @@
                                         <i class="far fa-trash-alt"></i>
                                     </a>
                                 </th>  
-                                <th  class="text-center">
+                                <!-- <th  class="text-center">
                                     <a href="historia_clinica.php?id=<?php echo $id_mascota ?>" class="btn btn-primary">
                                         <i class="far fa-notes-medical"></i>
                                     </a>
-                                </th>  
+                                </th>   -->
                             </tr>
                             
                     <?php } ?>
